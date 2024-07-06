@@ -63,7 +63,8 @@
         const productOptions = productData.products.map(product => product.name);
 
         // Set default date to current date
-        document.getElementById('date').value = new Date().toISOString().split('T')[0];
+       const today = new Date().toISOString().split('T')[0];
+       document.getElementById('date').value = today;
 
         // Function to handle 'other' option selection
         function handleOtherField(option, inputField) {
