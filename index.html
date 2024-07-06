@@ -37,8 +37,16 @@
                 <label for="billNo">Bill No.:</label>
                 <input type="text" id="billNo" name="billNo" placeholder="Enter bill number" required >
             </div>
-            
-        <!--Quantity Fields Side-by-Side -->
+    
+        <!-- Quality Check Fields (Generated based on selected product or standard criteria) -->
+        <div class="form-group">
+            <label for="productInput">Select Product:</label>
+            <input type="text" id="productInput" placeholder="Type to search... " required>
+            <div id="productSuggestions" class="suggestions"></div>
+            <input type="text" id="otherProduct" name="otherProduct" style="display:none;" placeholder="Enter product name">
+        </div>
+
+             <!--Quantity Fields Side-by-Side -->
         <div class="form-row">
             <div class="form-group half-width">
                 <label for="Quantity as per invoice">Invoice Quantity:</label>
@@ -50,15 +58,7 @@
               <input type="text" id="actualQuantity" name="actualQuantity" placeholder="Enter actual Quantity" required >
             </div>
       </div>
-
-        <!-- Quality Check Fields (Generated based on selected product or standard criteria) -->
-        <div class="form-group">
-            <label for="productInput">Select Product:</label>
-            <input type="text" id="productInput" placeholder="Type to search... " required>
-            <div id="productSuggestions" class="suggestions"></div>
-            <input type="text" id="otherProduct" name="otherProduct" style="display:none;" placeholder="Enter product name">
-        </div>
-
+        
         <!-- Item Code Dropdown -->
         <div class="form-group">
             <label for="itemCodeInput">Item Code:</label>
