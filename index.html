@@ -444,7 +444,7 @@
                 document.getElementById('inspectionForm').reset();
                 document.getElementById('date').value = new Date().toISOString().split('T')[0];
                 document.getElementById('qualityChecksContainer').innerHTML = '';
-                location.reload();
+                location.reload(); //it refresh the page after click 'ok' to successful alert message.
             } else {
                 throw new Error('Failed to submit form.');
             }
