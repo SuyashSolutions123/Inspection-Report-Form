@@ -4615,6 +4615,7 @@
         const nameOptions = ["Balu Limhan", "Pradeep Karlekar"];
         const supplierOptions = [
     "HINDUSTAN PLATINUM",
+    "ARADHYA ENTERPRISES",
     "Nagnath Lashkar -e",
     "Upasana Enterprises",
     "Sunkraft Industries-m",
