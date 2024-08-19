@@ -4614,6 +4614,7 @@
         // Options for each dropdown
         const nameOptions = ["Balu Limhan", "Pradeep Karlekar"];
         const supplierOptions = [
+    "HINDUSTAN PLATINUM",
     "Nagnath Lashkar -e",
     "Upasana Enterprises",
     "Sunkraft Industries-m",
