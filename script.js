@@ -1409,7 +1409,7 @@
                     ]
                 },
                 {
-                    "name": "260 mm*260 mm*260 mm TEMP. TIPS - NEW CERAMIC - 50 NOS",
+                    "name": "260 mm*260 mm*150 mm TEMP. TIPS - NEW CERAMIC - 50 NOS",
                     "code": "PT008",
                     "fields": [
                         { "label": "Length 260 MM +/- 5 MM", "name": "Length 260 MM +/- 5 MM" },
@@ -4640,6 +4640,7 @@
     "Rexor & Company INC",
     "Pandurang paper & board mill-m",
     "Syno plast",
+    "RAINBOW COLOR PLAST",
     "S.K. Traders",
     "Sadguru Trading CORP. -e",
     "Changzhou foreign Trade CORP.",
