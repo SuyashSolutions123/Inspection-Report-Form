@@ -1414,7 +1414,7 @@
                     "fields": [
                         { "label": "Length 260 MM +/- 5 MM", "name": "Length 260 MM +/- 5 MM" },
                         { "label": "Width 260 MM +/- 5 MM", "name": "Width 260 MM +/- 5 MM" },
-                        { "label": "Height 260 MM +/- 5 MM", "name": "Height 260 MM +/- 5 MM" },
+                        { "label": "Height 150 MM +/- 5 MM", "name": "Height 150 MM +/- 5 MM" },
                          { "label": "Ply 5", "name": "Ply 5" },
                           { "label": "5 Ply Corrogated Boxes paper quality 16 BF 200 gsm kraft with 4 side printing", "name": "5 Ply Corrogated Boxes paper quality 16 BF 200 gsm kraft with 4 side printing" }
                     ]
