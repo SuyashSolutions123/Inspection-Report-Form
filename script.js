@@ -4616,6 +4616,8 @@
         const supplierOptions = [
     "HINDUSTAN PLATINUM",
     "AARADHYA ENTERPRISES",
+    "MARUTI ENTERPRISES",
+    "ALFA TOOLS",
     "Nagnath Lashkar -e",
     "Upasana Enterprises",
     "Sunkraft Industries-m",
