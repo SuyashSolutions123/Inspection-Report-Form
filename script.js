@@ -4840,6 +4840,7 @@
                 date: document.getElementById('date').value,
                 supplierName: document.getElementById('supplierInput').value,
                 billNo: document.getElementById('billNo').value,
+		gateEntryNo: document.getElementById('gateEntryNo').value,
                 productName: document.getElementById('productInput').value,
                 invoiceQuantity: document.getElementById('invoiceQuantity').value,
                 actualQuantity: document.getElementById('actualQuantity').value,
