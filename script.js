@@ -4742,6 +4742,7 @@
                 for (let i = 0; i < 3; i++) { // Generate three input fields per label
                     const input = document.createElement('input');
                     input.type = 'text';
+		    input.required = true;  // Make the input field required
                     
                     input.name = field.name; // Unique name for each input
                     checkRow.appendChild(input);
