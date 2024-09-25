@@ -4616,6 +4616,7 @@
         const supplierOptions = [
     "HINDUSTAN PLATINUM",
     "AARADHYA ENTERPRISES",
+    "Dispotronics",
     "MARUTI ENTERPRISES",
     "ALFA TOOLS",
      "Venus International",
