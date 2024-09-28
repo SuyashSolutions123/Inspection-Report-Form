@@ -109,7 +109,7 @@
         z-index: 10;
        }
 
-       .calculator-container {
+        .calculator-container {
       display: flex;
       flex-direction: column;
       max-width: 300px;
@@ -122,17 +122,19 @@
       align-items: center;
       gap: 5px;
     }
+
     .inline-row input,
     .inline-row select {
       flex: 1;
     }
-    label {
-      font-size: 12px;
-    }
+    
     input, select, button {
-      padding: 5px;
+       width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            border: 1px solid #000000;
       font-size: 14px;
-      box-sizing: border-box;
     }
    button {
       margin-top: 10px;
