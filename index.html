@@ -69,6 +69,22 @@
             <input type="text" id="itemCodeInput" placeholder="Type to search..." required >
             <div id="itemCodeSuggestions" class="suggestions"></div>
         </div>
+        
+        <!-- Weight calculating formula -->
+ <div class="calculator-container">
+        <div class="inline-row">
+        <input id="formulaInputValue" type="text" placeholder="Formula Value">
+        <select id="customUnit">
+        <option value="kg">kg</option>
+        <option value="g">g</option>
+        </select>
+        <label>=</label>
+        <input id="formulaQuantityValue" type="text" placeholder="Quantity">
+        </div>
+        <button id="calculateWeight" onclick="calculateExpectedWeight()">Calculate</button>
+        <label for="Expected_Weight">Expected Weight:</label>
+        <input id="Expected_Weight" type="text" readonly>
+  </div>
 
         <!-- Quality Check Fields Container -->
         <div id="qualityChecksContainer" class="quality-checks">
