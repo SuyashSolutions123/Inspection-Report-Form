@@ -3,7 +3,7 @@
       let customValue = parseFloat(document.getElementById("formulaInputValue").value);
       let customUnit = document.getElementById("customUnit").value;
       const enteredQuantity = parseFloat(document.getElementById("formulaQuantityValue").value);
-      const invoiceQuantity = parseFloat(document.getElementById("actualQuantity").value);  
+      const actualQuantity = parseFloat(document.getElementById("actualQuantity").value);  
       
       if (isNaN(customValue) || isNaN(enteredQuantity) || isNaN(invoiceQuantity)) {
         alert("Please enter valid numbers in all fields.");
@@ -12,11 +12,11 @@
       
       let adjustedCustomValue = customValue;
       if (customUnit === 'Kg') {
-        adjustedCustomValue = customValue * 1000; // Convert kg to g
+        adjustedCustomValue = customValue * 1000; //converted to gram
       }
       
-      const weightPerUnit = enteredQuantity / adjustedCustomValue;
-      const expectedWeight = (invoiceQuantity * weightPerUnit) / 1000;
+      const weightPerUnit = adjustedCustomValue / enteredQuantity ;
+      const expectedWeight = (weightPerUnit * actualQuantity) / 1000; //converted to Kg
       
       document.getElementById("Expected_Weight").value = expectedWeight.toFixed(2) + " " + customUnit;
     }
