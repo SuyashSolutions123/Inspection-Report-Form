@@ -5,7 +5,7 @@
       const enteredQuantity = parseFloat(document.getElementById("formulaQuantityValue").value);
       const actualQuantity = parseFloat(document.getElementById("actualQuantity").value);  
       
-      if (isNaN(customValue) || isNaN(enteredQuantity) || isNaN(invoiceQuantity)) {
+      if (isNaN(customValue) || isNaN(enteredQuantity) || isNaN(actualQuantity)) {
         alert("Please enter valid numbers in all fields.");
         return;
       }
