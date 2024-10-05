@@ -21,7 +21,28 @@
       document.getElementById("Expected_Weight").value = expectedWeight.toFixed(2) + " " + customUnit;
     }
 
+// refresh page script code
+document.addEventListener('DOMContentLoaded', () => {
+let startY = 0;
+const refreshIcon = document.createElement('div');
+refreshIcon.classList.add('refresh-icon');
+refreshIcon.innerHTML = '&#x21bb;';
+document.body.appendChild(refreshIcon);
 
+window.addEventListener('touchstart', (e) => {
+    if (window.scrollY === 0) startY = e.touches[0].clientY;
+});
+
+window.addEventListener('touchmove', (e) => {
+    if (window.scrollY === 0 && e.touches[0].clientY > startY + 50) {
+        refreshIcon.style.display = 'block';
+    }
+});
+
+window.addEventListener('touchend', () => {
+    if (refreshIcon.style.display === 'block') location.reload();
+    refreshIcon.style.display = 'none';
+});
 
 	
     // fuction to generate reference code    
