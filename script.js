@@ -2131,7 +2131,7 @@ window.addEventListener('touchend', () => {
                     ]
                 },
                 {
-                    "name": "4'' Inch  display with wire (One Side)",
+                    "name": "4 Inch  display with wire (One Side)",
                     "code": "RM016",
                     "fields": [
                         { "label": "Make FLUXION PROCESS SOLUTIONS", "name": "Make FLUXION PROCESS SOLUTIONS" }
