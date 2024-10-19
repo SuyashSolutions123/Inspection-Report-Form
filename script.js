@@ -663,7 +663,7 @@
                     ]
                 },
                 {
-                    "name": " 4'' MICRO MAINS  MAIN CARD",
+                    "name": " 4 inch MICRO MAINS  MAIN CARD",
                     "code": "FP007",
                     "fields": [
                         { "label": "MAKE FLUXION", "name": "MAKE FLUXION" }
@@ -967,7 +967,7 @@
                     ]
                 },
                 {
-                    "name": "S & P TYPE 'B'  TIP PACKING 3 FT",
+                    "name": "S & P TYPE B  TIP PACKING 3 FT",
                     "code": "FT027",
                     "fields": [
                         { "label": "Stamp On Paper Tube Red 13% Stamp", "name": "Stamp On Paper Tube Red 13% Stamp" },
@@ -995,7 +995,7 @@
                     ]
                 },
                 {
-                    "name": "S & P TYPE 'B' TIPS PACKING 1200 MM",
+                    "name": "S & P TYPE B TIPS PACKING 1200 MM",
                     "code": "FT030",
                     "fields":  [
                         { "label": "Stamp On Paper Tube Red 13% Stamp", "name": "Stamp On Paper Tube Red 13% Stamp" },
@@ -1007,7 +1007,7 @@
                     ]
                 },
                 {
-                    "name": "S & P TYPE 'B' TIPS PACKING  2 FT",
+                    "name": "S & P TYPE B TIPS PACKING  2 FT",
                     "code": "FT031",
                     "fields": [
                         { "label": "Stamp On Paper Tube Red 13% Stamp", "name": "Stamp On Paper Tube Red 13% Stamp" },
@@ -1191,7 +1191,7 @@
                     ]
                 },
                 {
-                    "name": "550 * 260 * 320 (4'' MAINS) / BIG DISPLAY BOX",
+                    "name": "550 * 260 * 320 (4 inch MAINS) / BIG DISPLAY BOX",
                     "code": "PA005",
                     "fields":[
                         { "label": "Length 550 MM +/- 5 MM", "name": "Length 550 MM +/- 5 MM" },
@@ -1271,7 +1271,7 @@
                     ]
                 },
                 {
-                    "name": "DISPLAY CARD MICRO MAINS 2'",
+                    "name": "DISPLAY CARD MICRO MAINS 2",
                     "code": "PC004",
                     "fields": [
                         { "label": "TEST CERTIFICATE MANAFACTURE'S TC", "name": "TEST CERTIFICATE MANAFACTURE'S TC" }
@@ -2409,7 +2409,7 @@
                     ]
                 },
                 {
-                    "name": "POWDER ' B '",
+                    "name": "POWDER B ",
                     "code": "RM055",
                     "fields": [
                         { "label": "Purity Min.99 %", "name": "Purity Min.99 %" },
@@ -2419,7 +2419,7 @@
                     ]
                 },
                 {
-                    "name": "POWDER 'C '",
+                    "name": "POWDER C ",
                     "code": "RM056",
                     "fields": [
                         { "label": "Diameter 0.77mm +/- 0.05mm", "name": "Diameter 0.77mm +/- 0.05mm" },
@@ -3224,7 +3224,7 @@
                     ]
                 },
                 {
-                    "name": "MOTHER BOARD FOR 4'' MICRO MAINS INDICATOR",
+                    "name": "MOTHER BOARD FOR 4 inch MICRO MAINS INDICATOR",
                     "code": "RP009",
                     "fields": [
                         { "label": "Acceptance On The Basis Of Mfgr's Test Certificate:- Test Certificate", "name": "Acceptance On The Basis Of Mfgr's Test Certificate:- Test Certificate" }
@@ -3248,7 +3248,7 @@
                     ]
                 },
                 {
-                    "name": "MOTHER BOARD 4'' MICRO MAINS TEMP.PCB.ASSE",
+                    "name": "MOTHER BOARD 4 inch MICRO MAINS TEMP.PCB.ASSE",
                     "code": "RP013",
                     "fields": [
                         { "label": "Acceptance On The Basis Of Mfgr's Test Certificate:- Test Certificate", "name": "Acceptance On The Basis Of Mfgr's Test Certificate:- Test Certificate" }
@@ -3264,7 +3264,7 @@
                     ]
                 },
                 {
-                    "name": "DISPLAY BOARD 4'' MICRO MAINS TEMP.PCB.ASSE",
+                    "name": "DISPLAY BOARD 4 inch MICRO MAINS TEMP.PCB.ASSE",
                     "code": "RP016",
                     "fields": [
                         { "label": "Acceptance On The Basis Of Mfgr's Test Certificate:- Test Certificate", "name": "Acceptance On The Basis Of Mfgr's Test Certificate:- Test Certificate" }
@@ -3280,7 +3280,7 @@
                     ]
                 },
                 {
-                    "name": "DIA 6'' FLAP WHEEL FOR OLD CHINA WINDER",
+                    "name": "DIA 6 inch FLAP WHEEL FOR OLD CHINA WINDER",
                     "code": "RP026",
                     "fields": [
                         { "label": "ONLY QTY. TO BE CHECKING:- YES", "name": "ONLY QTY. TO BE CHECKING:- YES" }
