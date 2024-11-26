@@ -21,8 +21,7 @@
       const calculatedExpectedWeight = (weightPerUnit * actualQuantity)/ 1000; // converted to Kg 
 	document.getElementById("Expected_Weight").value = expectedWeight.toFixed(2) + " " + "Kg";
     }
-
-
+}
 
 	
     // fuction to generate reference code    
