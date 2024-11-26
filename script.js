@@ -13,12 +13,13 @@
       let adjustedCustomValue = customValue;
       if (customUnit === 'Kg') {
         adjustedCustomValue = customValue * 1000; //converted to gram
-      }
-      
       const weightPerUnit = adjustedCustomValue / enteredQuantity ;
       const expectedWeight = (weightPerUnit * actualQuantity) / 1000; //converted to Kg
-      
       document.getElementById("Expected_Weight").value = expectedWeight.toFixed(2) + " " + customUnit;
+      }else if (customUnit === 'g') {
+      const weightPerUnit = adjustedCustomValue / enteredQuantity;
+      const calculatedExpectedWeight = (weightPerUnit * actualQuantity)/ 1000; // converted to Kg 
+	document.getElementById("Expected_Weight").value = expectedWeight.toFixed(2) + " " + "Kg";
     }
 
 
