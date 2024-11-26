@@ -16,7 +16,7 @@
       const weightPerUnit = adjustedCustomValue / enteredQuantity ;
       const expectedWeight = (weightPerUnit * actualQuantity) / 1000; //converted to Kg
       document.getElementById("Expected_Weight").value = expectedWeight.toFixed(2) + " " + customUnit;
-      }else if (customUnit === 'g') {
+      }else if (customUnit === 'gram') {
       const weightPerUnit = adjustedCustomValue / enteredQuantity;
       const calculatedExpectedWeight = (weightPerUnit * actualQuantity)/ 1000; // converted to Kg 
 	document.getElementById("Expected_Weight").value = expectedWeight.toFixed(2) + " " + "Kg";
