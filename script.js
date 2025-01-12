@@ -3839,7 +3839,7 @@
                     "name": "ALUMINIUM CAP",
                     "code": "RT066",
                     "fields": [
-                        { "label": "Thickness 0.30MM + 0.05", "name": "Thickness 0.30MM + 0.05" },
+                        { "label": "Thickness 0.20MM + 0.05", "name": "Thickness 0.20MM + 0.05" },
                         { "label": "Drawing As per sample", "name": "Drawing As per sample" }
                         
                     ]
